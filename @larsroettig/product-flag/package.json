@@ -1,0 +1,19 @@
+{
+  "name": "@larsroettig/product-flag",
+  "version": "1.0.0",
+  "description": "Hello, anything!",
+  "author": "PWA Developer",
+  "license": "MIT",
+  "main": "lib/components/Main/main.js",
+  "pwa-studio": {
+    "targets": {
+      "intercept": "./targets/intercept.js"
+    }
+  },
+  "peerDependencies": {
+    "@magento/pwa-buildpack": "*",
+    "@magento/venia-ui": "*",
+    "react": "~16.9.0",
+    "react-router-dom": "~5.1.0"
+  }
+}
